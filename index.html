@@ -5,57 +5,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway:200,300,400,700,900" rel="stylesheet">
     <title>Cahee</title>
-
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <div class="header-top">
-            <div class="logo">
-                <a href="/"><img src="./assets/images/logo.svg"></a>
-            </div>
-            <nav class="flex-container">
-                <div class="flex-item active"><a href="/">Home</a></div>
-                <div class="flex-item"><a href="#about us">About</a></div>
-                <div class="flex-item"><a href="#services">Services</a></div>
-                <div class="flex-item"><a href="#gallery">Gallery</a></div>
-                <div class="flex-item"><a href="#blog">Blog</a></div>
-                <div class="flex-item"><a href="#contact">Contact</a></div>
-            </nav>
-        </div>
+    <section class="white">
         <div class="wrapper">
-            <section>
+            <header>
+                <div class="logo">
+                    <a href="/">Cahee</a>
+                </div>
+                <nav>
+                    <a href="/">Home</a>
+                    <a href="#about us">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </header>
+            <div class="call-to-action">
                 <h2>Fresh Life</h2>
                 <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                     nostrud exercitation ullamco.</p>
                 <button type="submit"><span>Get free now</span></button>
-            </section>
+            </div>
             <a class="scroll-to" href="#contact">
-                <img src="./assets/images/scroll.svg">
+                <img src="./assets/images/iconfinder_Mouse_1214978.svg" alt="scroll-mouse-to" width="30" height="38">
             </a>
         </div>
-    </header>
+    </section>
     <section class="about-us" id="about us">
-        <img src="./assets/images/img.png">
-        <article>
-            <h2>About us</h2>
-            <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum.
-                Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-        </article>
+        <div class="wrapper">
+            <article>
+                <img src="./assets/images/strawberry.png">
+                <h2>About us</h2>
+                <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum.
+                    Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+            </article>
     </section>
     <section id="services">
-        <div class="our-advantages">
-            <div class="flex-item">Online Shopping
-                <img src="./assets/images/shopping.png">
+        <div class="wrapper">
+            <div class="details">
+                <div class="our-services">
+                    <h2>Our Services</h2>
+                    <img src="./assets/images/img.png" alt="tomatos">
+                </div>
+                <div class="our-advantages">
+                    <a href="#"><span>Online Shopping</span>
+                        <div class="image"><img src="./assets/images/shopping.png" width="47" height="44" alt=""></div>
+                    </a>
+                    <a href="#"><span>Quality Product</span><span class="image"><img src="./assets/images/quality.png"
+                                alt=""></span></a>
+                    <a href="#"><span>Domestic & International Delivery</span><span class="image"><img src="./assets/images/domestic.png"
+                                alt=""></span></a>
+                    <a href="#"><span>Well Organized</span><span class="image"><img src="./assets/images/organized.png"
+                                alt=""></span></a>
+                </div>
             </div>
-            <div class="flex-item">Quality Product</div>
-            <div class="flex-item">Domestic & Internationfl Delivery</div>
-            <div class="flex-item">Well Organized</div>
+    </section>
+    <section id="gallery">
+        <div class="wrapper">
+            <h2>Gallery</h2>
+            <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="gallery-items">
+                <div class="flex">
+                    <img src="./assets/images/1.jpeg" alt="">
+                    <div class="flex2">
+                        <img src="./assets/images/2.jpeg" alt="">
+                        <img src="./assets/images/3.jpeg" alt=""></div>
+                    <img src="./assets/images/4.jpeg" alt="">
+                    <img src="./assets/images/5.jpeg" alt="">
+                </div>
+            </div>
+        <button>View more</button>
         </div>
     </section>
 </body>
