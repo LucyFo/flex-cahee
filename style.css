@@ -154,10 +154,9 @@ section p {
 .our-advantages span {
     /* padding: 0 0 0 25px;       */
     font-size: 20px;
-    font-weight: bold;
-    vertical-align: auto;
+    font-weight: bold;    
 }
-.our-advantage a span .image {
+.our-advantage span .image {
     /* width: 50%; */
     width: 100px;
     flex: 1 1 auto;
@@ -169,13 +168,17 @@ section p {
 }
 #gallery .wrapper {
     padding-top: 100px;
-}
-#gallery h2 {
     text-align: center;
 }
+#gallery h2,
+#gallery p {
+    text-align: center;
+}
+#gallery p {
+    margin: 50px auto;
+} 
 #gallery button {  
-    margin: 0 auto; 
-    display: inline-block;    
+    margin-bottom: 119px;      
     font-size: 20px;
     font-weight: 300;
     background-color: #5585a2;
